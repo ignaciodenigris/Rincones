@@ -1,0 +1,291 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #cecece;
+}
+.col {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/****Header****/
+header {
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    top: 0;
+}
+
+header h1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header nav ul li {
+    margin: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.carousel div img{
+width: 1000px;
+height: 600px;
+}
+/****Main****/
+main {
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/Main_img.jpg)
+}
+
+main section {
+    background-color: rgb(228, 155, 155);
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid rgb(83, 83, 83);
+    display: flex;
+    justify-content: center;
+}
+
+.bienvenidos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 150px;
+}
+
+.bienvenidos div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.servicios {
+    background-color: rgb(129, 129, 129);
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Living {
+    background-color: rgb(85, 85, 85);
+    border: 2px black solid;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+}
+
+.Living a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.Living a:hover {
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Living img {
+    width: 200px;
+}
+.Baños{
+    background-color: rgb(85, 85, 85);
+    border: 2px black solid;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+}
+
+.Baños a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.Baños a:hover {
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Baños img {
+    width: 200px;
+}
+.Cocina {
+    background-color: rgb(85, 85, 85);
+    border: 2px black solid;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+}
+
+.Cocina a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.Cocina a:hover {
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Cocina img {
+    width: 200px;
+}
+/**Nosotros*/
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one img {
+    border-radius: 10px;
+    border: 1px solid rgb(83, 83, 83);
+    border-width: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column: 2 / 3;
+    grid-row: 3;
+    box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+}
+
+.two img{
+    border-radius: 10px;
+    border: 1px solid rgb(83, 83, 83);
+    border-width: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: beige;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+}
+
+.three {
+    background-color: rgb(153, 153, 153);
+    border-radius: 10px;
+    border: 1px solid rgb(83, 83, 83);
+    border-width: 2px;
+    margin: 10px;
+    grid-column: 1;
+    grid-row: 1 / 5;
+    box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+}
+
+.four img{
+    border-radius: 10px;
+    border: 1px solid rgb(83, 83, 83);
+    border-width: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+}
+
+.five{
+    border-radius: 10px;
+    border: 1px solid rgb(83, 83, 83);
+    border-width: 2px;
+    grid-column: 2;
+    grid-row: 3 / 5 ;
+    box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+}
+.five div h2{
+    text-align: center;
+}
+.five div a{
+    text-decoration: none;
+    color: black;
+}
+.five div a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 5px;
+    padding: 7px;
+    
+}
+
+.six img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid rgb(83, 83, 83);
+    border-width: 2px;
+    grid-column: 3;
+    grid-row: 2 / 5;
+    box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 19px 1px rgba(0,0,0,0.75);
+}
+/**Footer**/
+footer{
+    background-color: #3b3b3b;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+footer div a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    justify-content: space-around;
+}
+footer div a:hover{
+    background-color: rgb(255, 209, 141);
+    border-radius: 10px;
+    padding: 10px;
+}
+@media screen and (max-withe:550px){
+    .bienvenidos{
+        padding: 100px;
+    }
+}
