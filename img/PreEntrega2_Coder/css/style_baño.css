@@ -1,0 +1,117 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(197, 197, 197);
+}
+header{
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    top: 0;
+}
+header h1{
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+header nav ul li{
+    margin: 15px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.bienvenidos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 150px;
+}
+
+.bienvenidos div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.moderno{
+    background-color: rgb(160, 160, 160);
+padding: 40px;
+
+}
+.Botton1{
+    color: antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+}
+.rústico{
+    background-color: rgb(173, 126, 65);
+padding: 40px;
+}
+.Botton2{
+    color: antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+}
+.Minimalista{
+    background-color: rgb(165, 101, 64);
+padding: 40px;
+}
+.Botton3{
+    color: antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+}
+.Spa{
+    background-color: #777777;
+padding: 40px;
+
+}
+.Botton4{
+    color: antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+}
+.ecléctico{
+    background-color: rgb(70, 70, 70);
+padding: 40px;
+}
+.Botton5{
+    color: antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+}
+footer{
+    background-color: #3b3b3b;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+footer div a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    justify-content: space-around;
+}
+footer div a:hover{
+    background-color: rgb(255, 209, 141);
+    border-radius: 10px;
+    padding: 10px;
+}
