@@ -1,0 +1,91 @@
+.servicios {
+    background-color: rgb(129, 129, 129);
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+        div {
+            .Living {
+                background-color: rgb(85, 85, 85);
+                border: 2px black solid;
+                width: 205px;
+                height: 205px;
+                text-align: center;
+
+                a {
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    margin: 10px;
+
+                    a:hover {
+                        background-color: rgb(235, 235, 235);
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+                }
+
+                a:hover {
+                    background-color: rgb(235, 235, 235);
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+
+                img {
+                    width: 200px;
+                }
+            }
+
+            .Baños {
+                background-color: rgb(85, 85, 85);
+                border: 2px black solid;
+                width: 205px;
+                height: 205px;
+                text-align: center;
+
+                a {
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    margin: 10px;
+                }
+
+                a:hover {
+                    background-color: rgb(235, 235, 235);
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+
+                img {
+                    width: 200px;
+                }
+            }
+
+            .Cocina {
+                background-color: rgb(85, 85, 85);
+                border: 2px black solid;
+                width: 205px;
+                height: 205px;
+                text-align: center;
+
+                a {
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    margin: 10px;
+                }
+
+                a:hover {
+                    background-color: rgb(235, 235, 235);
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+
+                img {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
