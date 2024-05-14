@@ -1,0 +1,287 @@
+@charset "UTF-8";
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #cecece;
+}
+
+.col {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  top: 0;
+}
+header div div div h1 {
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+}
+header div div div nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header div div div nav ul li {
+  margin: 15px;
+}
+header div div div nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.carousel {
+  width: 1000px;
+  height: 600px;
+}
+
+.bienvenidos {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 150px;
+}
+.bienvenidos div {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.info hr {
+  text-align: center;
+}
+.info div {
+  padding: 20px;
+  margin: 20px;
+}
+.info div li {
+  padding: 30px;
+  margin: 20px;
+}
+.info div {
+  background-color: rgb(185, 185, 185);
+}
+
+.info1 {
+  padding: 30px;
+  margin: 20px;
+}
+
+.servicios {
+  background-color: rgb(129, 129, 129);
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.servicios div div .Living {
+  background-color: rgb(85, 85, 85);
+  border: 2px black solid;
+  width: 205px;
+  height: 205px;
+  text-align: center;
+}
+.servicios div div .Living a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+.servicios div div .Living a a:hover {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  border-radius: 10px;
+}
+.servicios div div .Living a:hover {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  border-radius: 10px;
+}
+.servicios div div .Living img {
+  width: 200px;
+}
+.servicios div div .Baños {
+  background-color: rgb(85, 85, 85);
+  border: 2px black solid;
+  width: 205px;
+  height: 205px;
+  text-align: center;
+}
+.servicios div div .Baños a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+.servicios div div .Baños a:hover {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  border-radius: 10px;
+}
+.servicios div div .Baños img {
+  width: 200px;
+}
+.servicios div div .Cocina {
+  background-color: rgb(85, 85, 85);
+  border: 2px black solid;
+  width: 205px;
+  height: 205px;
+  text-align: center;
+}
+.servicios div div .Cocina a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+.servicios div div .Cocina a:hover {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  border-radius: 10px;
+}
+.servicios div div .Cocina img {
+  width: 200px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.miembros div div div div .one img {
+  border-radius: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  border-width: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-column: 2/3;
+  grid-row: 3;
+  box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.miembros div div div div .two img {
+  border-radius: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  border-width: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: beige;
+  grid-column: 2/4;
+  grid-row: 1/3;
+  box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.miembros div div div div .three {
+  background-color: rgb(153, 153, 153);
+  border-radius: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  border-width: 2px;
+  margin: 10px;
+  grid-column: 1;
+  grid-row: 1/5;
+  box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.miembros div div div div .four img {
+  border-radius: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  border-width: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.miembros div div div div .five {
+  border-radius: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  border-width: 2px;
+  grid-column: 2;
+  grid-row: 3/5;
+  box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.miembros div div div div .five div h2 {
+  background-color: #3b3b3b;
+  text-align: center;
+}
+.miembros div div div div .five div a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.miembros div div div div .five div a:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 5px;
+  padding: 7px;
+}
+.miembros div div div div .five div img {
+  align-items: center;
+}
+.miembros div div div div .six img {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  border-width: 2px;
+  grid-column: 3;
+  grid-row: 2/5;
+  box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  background-color: #3b3b3b;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+footer div a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  justify-content: space-around;
+}
+footer div a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  justify-content: space-around;
+}/*# sourceMappingURL=estilos.css.map */

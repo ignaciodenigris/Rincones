@@ -1,0 +1,129 @@
+.miembros {
+    div {
+        div {
+            div {
+                div {
+                    .one {
+                        img {
+                            border-radius: 10px;
+                            border: 1px solid rgb(83, 83, 83);
+                            border-width: 2px;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            grid-column: 2 / 3;
+                            grid-row: 3;
+                            box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                            -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                            -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                        }
+                    }
+
+                    .two {
+                        img {
+                            border-radius: 10px;
+                            border: 1px solid rgb(83, 83, 83);
+                            border-width: 2px;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            background-color: beige;
+                            grid-column: 2 / 4;
+                            grid-row: 1 / 3;
+                            box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                            -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                            -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                        }
+                    }
+
+                    .three {
+                        background-color: rgb(153, 153, 153);
+                        border-radius: 10px;
+                        border: 1px solid rgb(83, 83, 83);
+                        border-width: 2px;
+                        margin: 10px;
+                        grid-column: 1;
+                        grid-row: 1 / 5;
+                        box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                        -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                        -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                    }
+
+                    .four {
+                        img {
+                            border-radius: 10px;
+                            border: 1px solid rgb(83, 83, 83);
+                            border-width: 2px;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            grid-column: 3 / 4;
+                            grid-row: 3 / 4;
+                            box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                            -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                            -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                        }
+                    }
+
+                    .five {
+                        border-radius: 10px;
+                        border: 1px solid rgb(83, 83, 83);
+                        border-width: 2px;
+                        grid-column: 2;
+                        grid-row: 3 / 5;
+                        box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                        -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                        -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+
+                        div {
+                            h2 {
+                                background-color: #3b3b3b;
+                                text-align: center;
+                            }
+                        }
+
+                        div {
+                            a {
+                                text-align: center;
+                                text-decoration: none;
+                                color: black;
+                            }
+
+                            a:hover {
+                                color: rgb(255, 255, 255);
+                                background-color: black;
+                                border-radius: 5px;
+                                padding: 7px;
+                            }
+
+                            img {
+                                align-items: center;
+                            }
+                        }
+                    }
+
+                    .six {
+                        img {
+                            width: 100%;
+                            height: 500px;
+                            border-radius: 10px;
+                            border: 1px solid rgb(83, 83, 83);
+                            border-width: 2px;
+                            grid-column: 3;
+                            grid-row: 2 / 5;
+                            box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                            -webkit-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                            -moz-box-shadow: 10px 9px 19px 1px rgba(0, 0, 0, 0.75);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+header {
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    top: 0;
+
+    div {
+        div {
+            div {
+                h1 {
+                    color: aliceblue;
+                    display: flex;
+                    justify-content: flex-start;
+                }
+            }
+
+            div {
+                nav {
+                    ul {
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-around;
+
+                        li {
+                            margin: 15px;
+
+                            a {
+                                text-decoration: none;
+                                color: aliceblue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
